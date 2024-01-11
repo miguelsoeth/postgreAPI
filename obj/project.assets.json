@@ -2712,23 +2712,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\migue\\.nuget\\packages\\": {},
+    "C:\\Users\\labdeps\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\migue\\Desktop\\postgreAPI\\postgreAPI\\postgreAPI.csproj",
+      "projectUniqueName": "C:\\Users\\labdeps\\Desktop\\postgreAPI\\postgreAPI\\postgreAPI.csproj",
       "projectName": "postgreAPI",
-      "projectPath": "C:\\Users\\migue\\Desktop\\postgreAPI\\postgreAPI\\postgreAPI.csproj",
-      "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\migue\\Desktop\\postgreAPI\\postgreAPI\\obj\\",
+      "projectPath": "C:\\Users\\labdeps\\Desktop\\postgreAPI\\postgreAPI\\postgreAPI.csproj",
+      "packagesPath": "C:\\Users\\labdeps\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\labdeps\\Desktop\\postgreAPI\\postgreAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\labdeps\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

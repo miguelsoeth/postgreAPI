@@ -18,10 +18,25 @@ namespace postgreAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<queryHistory>>> GetQueryHistory()
+        public async Task<ActionResult<List<queryHistoryModel>>> GetQueryHistory()
         {
-            var history = await _context.queries.ToListAsync();
+            var history = await _context.queries.OrderByDescending(q => q.queryDate).Take(100).ToListAsync();
+
+            if (history is null)
+            {
+                return NotFound("Historico vazio.");
+            }
+                
             return Ok(history);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<List<queryHistoryModel>>> AddQueryHistory(queryHistoryModel qh)
+        {
+            _context.queries.Add(qh);
+            await _context.SaveChangesAsync();
+
+            return Ok(qh);
         }
     }
 }

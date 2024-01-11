@@ -10,6 +10,6 @@ namespace postgreAPI.Data
             
         }
 
-        public DbSet<queryHistory> queries { get; set; }
+        public DbSet<queryHistoryModel> queries { get; set; }
     }
 }

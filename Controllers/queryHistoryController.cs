@@ -38,7 +38,7 @@ namespace postgreAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<queryHistoryModel>> AddQueryHistoryDTO(queryHistoryDto qh)
+        public async Task<ActionResult<queryHistoryModel>> AddQueryHistoryDTO(queryHistoryResponse qh)
         {
             var connection = new NpgsqlConnection(_configuration.GetConnectionString("DatabaseConnection"));
             await connection.OpenAsync();
